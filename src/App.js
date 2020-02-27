@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
 
 class App extends Component {
   render() {
+
+    axios.get("google.com");
     return (
       <div className="App">
         <div className="App-header">
